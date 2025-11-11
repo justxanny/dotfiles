@@ -131,3 +131,8 @@ unset key
 # Aliases
 alias ls='eza --group-directories-first --icons'
 alias less='bat' 
+
+echo_blank() {
+    echo
+}
+precmd_functions+=echo_blank
